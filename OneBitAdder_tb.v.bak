@@ -1,0 +1,6 @@
+`timescale 1 ns/ 100 ps
+module OneBitAdder_tb();
+	reg x, y, cin;
+	wire s, cout;
+	OneBitAdder A1(x, y, cin, s, cout);
+	

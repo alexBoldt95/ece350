@@ -1,0 +1,5 @@
+module OneBitAdder(x, y, cin, s, cout);
+	input x,y,cin;
+	output s, cout;
+	wire s1, c1, c2, n1, n2;
+	
